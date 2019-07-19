@@ -22,7 +22,7 @@ import retrofit2.http.*
  * Created by Mathan on 3/3/18.
  **/
 
-class APARTServices {
+class AppServices {
 
     object API {
 

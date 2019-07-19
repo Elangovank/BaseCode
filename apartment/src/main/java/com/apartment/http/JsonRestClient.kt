@@ -9,7 +9,7 @@ import com.android.volley.Response
 import com.android.volley.toolbox.HurlStack
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
-import com.docity.telehealth.util.Utility
+import com.apartment.util.Utility
 import org.json.JSONObject
 import java.io.IOException
 import java.lang.reflect.Type

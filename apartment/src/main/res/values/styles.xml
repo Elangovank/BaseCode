@@ -160,7 +160,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:drawableTint" tools:ignore="NewApi">@color/app_blue_light</item>
-        <item name="android:drawableRight">@mipmap/ic_right_arrow</item>
 
     </style>
 
@@ -176,19 +175,6 @@
     </style>
 
 
-    <style name="PrimaryButton_Positive">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:paddingRight">20dp</item>
-        <item name="android:paddingLeft">25dp</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/lato_bold</item>
-        <item name="android:textColor">@color/app_white</item>
-        <item name="android:drawableRight">@mipmap/ic_right_arrow</item>
-        <item name="android:background">@drawable/bg_circle_blue</item>
-    </style>
-
-
     <style name="PrimaryButton_Positive_WithoutArrow">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">40dp</item>
@@ -198,19 +184,6 @@
         <item name="android:fontFamily">@font/lato_bold</item>
         <item name="android:textColor">@color/app_white</item>
         <item name="android:background">@drawable/bg_circle_blue</item>
-    </style>
-
-
-    <style name="PrimaryButton_Negative">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:paddingRight">25dp</item>
-        <item name="android:paddingLeft">20dp</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/lato_bold</item>
-        <item name="android:textColor">@color/app_white</item>
-        <item name="android:drawableLeft">@mipmap/ic_left_arrow</item>
-        <item name="android:background">@drawable/bg_circle_gray</item>
     </style>
 
     <style name="PrimaryButton_Negative_WithoutArrow">

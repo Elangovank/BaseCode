@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import com.apartment.R
 
 /**
  * Created by Mathan on 29/01/19.
@@ -49,7 +50,7 @@ class APARTFragmentManager
             }
 
             // Add the selected fragment
-//            aTransaction.add(R.id.frame_container, aFragment, tag)
+            aTransaction.add(R.id.frame_container, aFragment, tag)
 
             // add the tag to the backstack
             aTransaction.addToBackStack(tag)
@@ -95,7 +96,7 @@ class APARTFragmentManager
             }
 
             //Repalce New Fragment with old
-//            aTransaction.replace(R.id.frame_container, aFragment, tag)
+            aTransaction.replace(R.id.frame_container, aFragment, tag)
             aTransaction.addToBackStack(tag)
 
 

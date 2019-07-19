@@ -3,7 +3,7 @@ package com.apartment.base
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.docity.telehealth.util.Utility
+import com.apartment.util.Utility
 
 /**
  * Created by Mathan on 28/01/19.

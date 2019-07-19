@@ -5,7 +5,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.apartment.storage.LocalStorageSP
-import com.docity.telehealth.util.Utility
+import com.apartment.util.Utility
 
 /**
  * Created by Mathan on 28/01/19.

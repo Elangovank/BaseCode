@@ -1,4 +1,4 @@
-package com.apartment.constants
+package com.apartment.app.constants
 
 import android.Manifest
 

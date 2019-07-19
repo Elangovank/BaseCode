@@ -8,7 +8,7 @@ import com.android.volley.Request
 import com.android.volley.toolbox.HurlStack
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.docity.telehealth.util.Utility
+import com.apartment.util.Utility
 import java.io.IOException
 import java.lang.reflect.Type
 import java.net.ConnectException

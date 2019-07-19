@@ -15,8 +15,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.apartment.R
-import com.apartment.api.APARTServices
-import com.apartment.constants.Constant
+import com.apartment.api.AppServices
+import com.apartment.app.constants.Constant
 import com.squareup.picasso.Picasso
 import java.io.File
 import java.io.FileInputStream
@@ -196,7 +196,7 @@ object Utility {
     fun loadImage(aURL: String, image: ImageView) {
         try {
             if (aURL.contains("rails/")) {
-                Picasso.get().load(APARTServices.API.constructUrl(aURL))
+                Picasso.get().load(AppServices.API.constructUrl(aURL))
                     .placeholder(R.drawable.ic_user_placeholder)
                     .error(R.drawable.ic_user_placeholder)
                     .into(image)

@@ -3,7 +3,7 @@ package com.apartment.storage
 import android.content.Context
 import android.content.SharedPreferences
 import com.apartment.app.model.User
-import com.apartment.constants.Constant
+import com.apartment.app.constants.Constant
 import com.google.gson.Gson
 
 /**
