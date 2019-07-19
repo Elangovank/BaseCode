@@ -1,3 +1,263 @@
-<resources>
-    <string name="app_name">Apartment</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Docity</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="reset_password_caps">RESET PASSWORD</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="create_account_caps">CREATE ACCOUNT</string>
+    <string name="login">Login</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="login_caps">LOGIN</string>
+    <string name="create_appointment">Create Appointment</string>
+    <string name="appointment">Appointment</string>
+    <string name="appointment_caps">APPOINTMENT</string>
+    <string name="create_account">Create Account</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="settings">Settings</string>
+    <string name="upcoming_appointments_caps">UPCOMING APPOINTMENTS</string>
+    <string name="medical_information_caps">MEDICAL INFORMATION</string>
+    <string name="first_name_caps_mandatory">FIRST NAME *</string>
+    <string name="last_name_caps_mandatory">LAST NAME *</string>
+    <string name="email_caps_mandatory">EMAIL *</string>
+    <string name="password_caps_mandatory">PASSWORD *</string>
+    <string name="confirm_password_caps_mandatory">CONFIRM PASSWORD *</string>
+    <string name="date_of_birth_caps">DATE OF BIRTH</string>
+    <string name="date_of_birth_mandatory">DATE OF BIRTH *</string>
+    <string name="time_zone_caps">TIME ZONE</string>
+    <string name="select_program_provider_caps">SELECT PROGRAM PROVIDER</string>
+    <string name="register_caps">REGISTER</string>
+    <string name="session_information">Session Information</string>
+    <string name="reason_for_visit_caps">REASON FOR VISIT</string>
+    <string name="appointment_length_caps">APPOINTMENT LENGTH</string>
+    <string name="additional_comments_caps">ADDITIONAL COMMENTS</string>
+    <string name="visit_description_caps">VISIT DESCRIPTION</string>
+    <string name="visit_description">Visit Description</string>
+    <string name="description_caps_mandatory">DESCRIPTION *</string>
+    <string name="family_members_caps">FAMILY MEMBERS</string>
+    <string name="add_family_member_caps">ADD FAMILY MEMBER</string>
+    <string name="update_family_member_caps">UPDATE FAMILY MEMBER</string>
+    <string name="cancel_caps" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="select_practitioner_caps_mandatory">SELECT A PRACTITIONER *</string>
+    <string name="select_patient_caps_mandatory">SELECT A PATIENT *</string>
+    <string name="choose_date_caps_mandatory">CHOOSE DATE *</string>
+    <string name="choose_time_caps_mandatory">CHOOSE TIME *</string>
+    <string name="choose_date_caps">CHOOSE DATE</string>
+    <string name="choose_time_caps">CHOOSE TIME</string>
+    <string name="appointment_length_caps_mandatory">APPOINTMENT LENGTH *</string>
+    <string name="symptoms_caps_mandatory">SYMPTOMS *</string>
+    <string name="symptoms_caps">SYMPTOMS</string>
+    <string name="do_you_have_fever_caps">DO YOU HAVE FEVER?</string>
+    <string name="do_you_have_nausea_caps">DO YOU HAVE NAUSEA?</string>
+    <string name="book_now_caps">BOOK NOW</string>
+    <string name="change_email_caps">CHANGE EMAIL</string>
+    <string name="current_email_caps">CURRENT EMAIL</string>
+    <string name="new_email_caps_mandatory">NEW EMAIL *</string>
+    <string name="repeat_new_email_caps_mandatory">REPEAT NEW EMAIL *</string>
+    <string name="update_caps">UPDATE</string>
+    <string name="change_password_caps">CHANGE PASSWORD</string>
+    <string name="current_password_caps_mandatory">CURRENT PASSWORD *</string>
+    <string name="new_password_caps_mandatory">NEW PASSWORD *</string>
+    <string name="repeat_new_password_caps_mandatory">REPEAT NEW PASSWORD *</string>
+    <string name="pre_existing_conditions_caps">PRE-EXISTING CONDITIONS</string>
+    <string name="pre_existing_conditions_caps_mandatory">PRE-EXISTING CONDITIONS *</string>
+    <string name="blood_pressure_caps">BLOOD PRESSURE</string>
+    <string name="allergies_caps">ALLERGIES</string>
+    <string name="allergies_caps_mandatory">ALLERGIES *</string>
+    <string name="sex_caps_mandatory">SEX *</string>
+    <string name="sex_caps">SEX</string>
+    <string name="state_caps">STATE</string>
+    <string name="occupation_caps">OCCUPATION</string>
+    <string name="phone_caps_mandatory">PHONE *</string>
+    <string name="address_caps_mandatory">ADDRESS *</string>
+    <string name="city_caps_mandatory">CITY *</string>
+    <string name="state_caps_mandatory">STATE *</string>
+    <string name="zip_caps_mandatory">ZIP *</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="payment_information">Payment Information</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="family_members">Family Members</string>
+    <string name="info_caps">INFO</string>
+    <string name="history_caps">HISTORY</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Validation-->
+    <string name="plz_enter_email">Please enter a email</string>
+    <string name="plz_enter_password">Please enter a password</string>
+    <string name="plz_valid_password">Your password must be minimum 8 character</string>
+    <string name="plz_enter_confirm_password">Please enter a confirm password</string>
+    <string name="plz_choose_program">Please select a program provider</string>
+    <string name="plz_valid_email">Please enter a valid email</string>
+    <string name="plz_enter_card_details">Please enter a valid card details</string>
+    <string name="plz_valid_mobile">Please enter a valid mobile number</string>
+    <string name="please_check_your_mail">Please check your mail</string>
+    <string name="plz_enter_first_name">Please enter your first name</string>
+    <string name="plz_enter_last_name">Please enter your last name</string>
+    <string name="plz_mismatch_password">Password and Confirm password should be same</string>
+    <string name="plz_mismatch_email">New email and Repeat email should be same</string>
+    <string name="plz_choose_practitioner">Please select a practitioner</string>
+    <string name="plz_choose_date">Please choose date</string>
+    <string name="plz_choose_time">Please choose time</string>
+    <string name="plz_choose_length">Please choose appointment length</string>
+    <string name="plz_choose_sex">Please choose your gender</string>
+    <string name="plz_choose_state">Please choose your state</string>
+    <string name="plz_choose_blood_pressure">Please choose your blood pressure</string>
+    <string name="plz_enter_symptoms">Please enter symptoms</string>
+    <string name="plz_enter_reason">Please enter reason</string>
+    <string name="plz_enter_address">Please enter your address</string>
+    <string name="plz_enter_city">Please enter your city</string>
+    <string name="plz_enter_zip">Please enter your zip code</string>
+    <string name="plz_enter_conditions">Please enter pre-existing conditions</string>
+    <string name="plz_enter_allergies">Please enter allergies</string>
+    <string name="plz_enter_member_name">Please enter member name</string>
+    <string name="plz_enter_member_relation">Please enter member relationship</string>
+    <string name="plz_select_member_dob">Please select member date of birth</string>
+    <string name="plz_select_dob">Please choose date of birth</string>
+    <string name="plz_select_dob_18">Birthday should be over 18 to create an account</string>
+    <string name="ok">OK</string>
+    <string name="add_member_caps">ADD MEMBER</string>
+    <string name="no_members_added">You currently have no family members added.</string>
+    <string name="add_caps">ADD</string>
+    <string name="name_caps">NAME</string>
+    <string name="name_caps_mandatory">NAME *</string>
+    <string name="relationship_caps_mandatory">RELATIONSHIP *</string>
+    <string name="edit_caps">EDIT</string>
+    <string name="back_caps">BACK</string>
+    <string name="no_internet">Oops, No internet connection</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="select_a_program_provider_caps">Select a program provider</string>
+    <string name="medical_record_access_caps">MEDICAL RECORD ACCESS</string>
+    <string name="none">None</string>
+
+    <string name="room_status">status</string>
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for
+        additional functionality.
+    </string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="error_retrieving_access_token">Error retrieving token</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="codec_title">Set your preferred audio and video codec. Not all codecs are supported with Group rooms.
+        The media server will fallback to OPUS or VP8 if a preferred codec is not supported.
+    </string>
+    <string name="pref_title_audio_codec">Audio Codec</string>
+    <string name="pref_title_video_codec">Video Codec</string>
+    <string name="sender_bandwidth_constraints">Set sender bandwidth constraints. Zero represents the WebRTC default
+        value which varies by codec.
+    </string>
+    <string name="max_audio_bitrate">Max Audio Bitrate (bits per second)</string>
+    <string name="max_video_bitrate">Max Video Bitrate (bits per second)</string>
+    <string name="vp8_simulcast">VP8 Simulcast</string>
+    <string name="join_caps">JOIN</string>
+    <string name="no_data_found">No Data Found!</string>
+    <string name="empty_total">0 Total</string>
+    <string name="book_appointment_notes">Notes: The provider can access the medical records until 48 hours after the
+        appointment end time.
+    </string>
+    <string name="book_appointment_allow">ALLOW THIS PROVIDER TO ACCESS MY MEDICAL RECORDS</string>
+    <string name="choose_image_caps">CHOOSE IMAGE</string>
+    <string name="fever_caps">FEVER</string>
+    <string name="nausea_caps">NAUSEA</string>
+    <string name="yyyy_mm_dd">YYYY/MM/DD</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="program_provider">Program Provider</string>
+    <string name="gmt">(GMT)</string>
+    <string name="access_records_caps">ACCESS RECORDS</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="type_any_symptoms_here">Type any symptoms here</string>
+    <string name="reason">Reason</string>
+    <string name="comments">Comments</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="next_appointment_caps">NEXT APPOINTMENT</string>
+    <string name="last_seen_caps">LAST SEEN</string>
+    <string name="location_caps">LOCATION</string>
+    <string name="age_caps">AGE</string>
+    <string name="more_info">More Info</string>
+    <string name="patient">Patient</string>
+    <string name="patient_caps">PATIENT</string>
+    <string name="search_patient_name">Search by Patient Name</string>
+    <string name="profession_caps">PROFESSION</string>
+    <string name="no_of_visits_caps">NO OF VISITS</string>
+    <string name="last_visit">LAST VISIT</string>
+    <string name="session_notes_caps">SESSION NOTES</string>
+    <string name="session_notes">Session Notes</string>
+    <string name="experience_caps">EXPERIENCE</string>
+    <string name="experience_yrz_caps">EXPERIENCE (YRS)</string>
+    <string name="qualification_caps">QUALIFICATION</string>
+    <string name="certification_caps">CERTIFICATION</string>
+    <string name="npi_caps">NPI #</string>
+    <string name="state_of_license_caps">STATE OF LICENSE</string>
+    <string name="title_caps">TITLE</string>
+    <string name="board_certified_caps">BOARD CERTIFIED</string>
+    <string name="specialty_caps">SPECIALTY / BOARD</string>
+    <string name="reschedule_appointment">Reschedule Appointment</string>
+    <string name="reschedule_caps">RESCHEDULE</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="reason_for_visit_mandatory">REASON FOR VISIT *</string>
+    <string name="save_caps">SAVE</string>
+    <string name="description_alert">Please write a concise description of this visit for record keeping.\nThis
+        information will also be viewable by the patient.
+    </string>
+    <string name="terms_alert">If you agree to the above Terms &amp; Conditions, press the Accept button
+        below.\nOtherwise, click the decline to cancel your registration.
+    </string>
+    <string name="plan_details_caps">PLAN DETAILS</string>
+    <string name="current_plan">CURRENT PLAN</string>
+    <string name="subscription_fee_caps">SUBSCRIPTION FEE</string>
+    <string name="appointment_fee_caps">APPOINTMENT FEE</string>
+    <string name="billing_info_caps">BILLING INFO</string>
+    <string name="payment_history_caps">PAYMENT HISTORY</string>
+    <string name="payment_history">Payment History</string>
+    <string name="cancel_subscription">Cancel Subscription</string>
+    <string name="update_card">Update Card Details</string>
+    <string name="add_card_details">Add Card Details</string>
+    <string name="card_details">Card Details</string>
+    <string name="payment_purpose_caps">PAYMENT PURPOSE</string>
+    <string name="payment_date_caps">PAYMENT DATE</string>
+    <string name="paid_caps">PAID</string>
+    <string name="transaction_id_caps">TRANSACTION ID</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="decline_caps">DECLINE</string>
+    <string name="accept_caps">ACCEPT</string>
+    <string name="important">Important:</string>
+    <string name="pay_with_card">Pay with Card</string>
+    <string name="add_your_card">Add your Card</string>
+    <string name="renew_subscription">Renew Subscription</string>
+    <string name="complete_profile">Complete Profile</string>
+    <string name="continue_caps">CONTINUE</string>
+
+    <string-array name="patient_menu_items">
+        <item>Dashboard</item>
+        <item>My History</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="provider_menu_items">
+        <item>Dashboard</item>
+        <item>Patient Records</item>
+        <item>Appointments</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <string-array name="names">
+        <item>Dr. James Smith</item>
+        <item>Dr. John Doe</item>
+        <item>Dr. Paul Kasey</item>
+        <item>Dr. Denise Paul</item>
+        <item>Dr. Steven Moffat</item>
+    </string-array>
+
 </resources>

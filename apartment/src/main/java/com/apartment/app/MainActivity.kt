@@ -1,7 +1,8 @@
-package com.apartment
+package com.apartment.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.apartment.R
 
 class MainActivity : AppCompatActivity() {
 
