@@ -12,34 +12,17 @@ object Constant {
 
     // App Screen Titles
     var DASHBOARD_TITLE = "Dashboard"
-    var MY_HISTORY_TITLE = "My History"
-    var PATIENT_RECORDS = "Patient Records"
-    var YOUR_PROFILE_TITLE = "Your Profile"
-    var BOOK_APPOINTMENT_TITLE = "Book Appointment"
-    var PATIENT_INFO = "Patient Information"
-    var APPOINTMENT_TITLE = "Appointments"
+    var GALLERY_TITLE = "Gallery"
+    var ABOUT_TITLE = "About Us"
+    var CONTACT_TITLE = "Contact Us"
+    var ISO_TITLE = "ISO"
 
     var DASHBOARD = 0
-    var MY_HISTORY = 1
-    var SETTINGS = 2
-    var LOGOUT = 3
-    var PROVIDER_LOGOUT = 4
+    var GALLERY = 1
+    var ABOUT = 2
+    var CONTACT = 3
+    var ISO = 4
 
-    var OPTION_CALL = 0
-    var OPTION_INFO = 1
-    var OPTION_HISTORY = 2
-    var OPTION_RESCHEDULE = 3
-    var OPTION_CANCEL = 4
-
-    var PLAN_ONE = 1
-    var PLAN_TWO = 2
-    var PLAN_THREE = 3
-    var PLAN_FOUR = 4
-
-    var GET_EMAIL = 1
-
-    var GET_TERMS = 1
-    var ACCEPT_TERMS = 2
 
     // Date/Time Formats
     var DD_MM_YY = "dd-MM-yyyy" // 06-12-1993
