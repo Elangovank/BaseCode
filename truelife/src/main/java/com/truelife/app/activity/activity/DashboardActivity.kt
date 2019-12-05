@@ -17,6 +17,11 @@ import com.truelife.util.Utility
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.app_main_header.*
 
+
+/**
+ * Created by Elango on 28/12/19.
+ **/
+
 class DashboardActivity : BaseActivity(), BottomNavigationView.OnNavigationItemReselectedListener {
 
     private lateinit var mContext: Context
