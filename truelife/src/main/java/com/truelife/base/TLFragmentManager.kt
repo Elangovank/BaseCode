@@ -11,7 +11,7 @@ import com.truelife.R
  * Created by Mathan on 29/01/19.
  */
 
-class APARTFragmentManager
+class TLFragmentManager
 /**
  * Constructor to Initiate fragment manager
  *

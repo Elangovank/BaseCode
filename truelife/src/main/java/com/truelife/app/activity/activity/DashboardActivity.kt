@@ -10,7 +10,7 @@ import com.truelife.app.constants.Constant.DASHBOARD
 import com.truelife.app.constants.Constant.GALLERY
 import com.truelife.app.constants.Constant.ISO
 import com.truelife.app.fragment.*
-import com.truelife.base.APARTFragmentManager
+import com.truelife.base.TLFragmentManager
 import com.truelife.base.BaseActivity
 import com.truelife.util.AppDialogs
 import com.truelife.util.Utility
@@ -20,7 +20,7 @@ import kotlinx.android.synthetic.main.app_main_header.*
 class DashboardActivity : BaseActivity(), BottomNavigationView.OnNavigationItemReselectedListener {
 
     private lateinit var mContext: Context
-    private var mFragmentManager: APARTFragmentManager? = null
+    private var mFragmentManager: TLFragmentManager? = null
     private var mBottomNavigation: BottomNavigationView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +39,7 @@ class DashboardActivity : BaseActivity(), BottomNavigationView.OnNavigationItemR
 
 
     override fun init() {
-        mFragmentManager = APARTFragmentManager(this)
+        mFragmentManager = TLFragmentManager(this)
         mBottomNavigation = findViewById(R.id.bottom_navigation)
 
         mBottomNavigation!!.setOnNavigationItemReselectedListener(this)

@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.truelife.app.activity.activity.DashboardActivity
 import com.truelife.app.constants.Constant
-import com.truelife.base.APARTFragmentManager
+import com.truelife.base.TLFragmentManager
 import com.truelife.base.BaseFragment
 
 
@@ -18,7 +18,7 @@ import com.truelife.base.BaseFragment
 class DummyFragment : BaseFragment() {
 
     private var mContext: Context? = null
-    private var mFragmentManager: APARTFragmentManager? = null
+    private var mFragmentManager: TLFragmentManager? = null
 
     private var mView: View? = null
 
@@ -35,7 +35,7 @@ class DummyFragment : BaseFragment() {
 
     override fun init(view: View): Boolean {
         mContext = activity
-        mFragmentManager = APARTFragmentManager(activity!!)
+        mFragmentManager = TLFragmentManager(activity!!)
 
         return true
     }
